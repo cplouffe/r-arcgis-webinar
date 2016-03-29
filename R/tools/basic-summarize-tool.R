@@ -9,7 +9,7 @@ tool_exec = function(in_params, out_params) {
   pkgs = c('dplyr')
   load_pkgs(pkgs)
 
-  # Print all inputs/outputs
+  # Print all inputs/outputs (uncomment for debugging)
   # print(in_params[[1]])
   # print(in_params[[2]])
   # print(in_params[[3]])
@@ -63,6 +63,3 @@ load_pkgs = function(pkgs) {
 # summarize_field = 'Total_Major_Crime_Incidents'
 # summarize_func = 'mean'
 # final_df = 'data/r-arcgis-data.gdb/summarize_crime'
-
-# Inspect the multiple-summarize-tool.R script to learn how to output
-# to see how to output a feature class.
